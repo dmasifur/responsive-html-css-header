@@ -17,3 +17,37 @@ nav {
   border-bottom: 1px solid #000;
   z-index: 10;
 }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .logo {
+  width: 220px;
+  cursor: pointer;
+}
+
+.nav-btn {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 25px;
+  border: 0;
+  outline: 0;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.nav-btn img {
+  width: 16px;
+  margin-left: 8px;
+}
